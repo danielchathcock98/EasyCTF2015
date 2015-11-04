@@ -1,3 +1,6 @@
 Just hello world....I mean cmon :P
 
 NOTE: I tried uploading my python file from my computer, but it didn't work. I suggest always just copy/pasting code to their programming interface.
+
+Flag: easyctf{welc0me_two_easyCtf}
+- Daniel
