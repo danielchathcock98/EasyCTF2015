@@ -1,0 +1,4 @@
+The flag is hidden in the console. It says check EVERYWHERE, so please do.
+
+Flag: easyctf{remember_to_check_everywhere}
+- Daniel
