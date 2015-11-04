@@ -1,0 +1,3 @@
+So basically simple caeser shift. I took the time to write the short python thing so that we can test for any caeser shift in the future (although there will probably be none).
+
+The value for the shift was +7.
