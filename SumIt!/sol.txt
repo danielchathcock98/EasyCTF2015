@@ -1,0 +1,6 @@
+Just open file, read list, separate by commas, then turn into ints, sum, and write to new file.
+
+Must have newline character at the end of the written file!
+
+Flag: easyctf{'twas_sum_EZ_programming,_am_I_rite?}
+- Daniel

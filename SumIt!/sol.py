@@ -1,0 +1,7 @@
+f = open("addition.in", "r")
+nums = f.readline().split(",")
+f.close()
+f = open("addition.out", "w")
+f.write(str(sum([int(num) for num in nums])) + "\n")
+f.flush()
+f.close()
