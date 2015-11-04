@@ -1,0 +1,4 @@
+Lol, just do the kill the window thing and get rid of the "blur" class on that one div tag. Then you can read it....interesting story xD
+
+Flag: easyctf{geico_geck0s}
+- Daniel
