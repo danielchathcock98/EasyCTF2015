@@ -1,0 +1,6 @@
+I hate this stupid problem. The instructions/examples are wrong!! What the hell??...anyway...
+
+Read file, separate two lines into list and string (which I make into a list to make mutable). Then do the changing (you can only change each letter once...which isn't specified anywhere, and is contradictory to the example). Then print as string.
+
+Flag: easyctf{changing_things_up_once_in_a_while_is_gooood_for_you}
+- Daniel
