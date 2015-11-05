@@ -1,7 +1,0 @@
-f = open("addition.in", "r")
-nums = f.readline().split(",")
-f.close()
-f = open("addition.out", "w")
-f.write(sum(nums))
-f.flush()
-f.close()
