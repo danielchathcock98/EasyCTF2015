@@ -1,0 +1,4 @@
+Really easy...if logic. Not gonna explain.
+
+Flag: easyctf{is_it_hi_or_hey_or_something_else}
+- Daniel
