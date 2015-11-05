@@ -1,0 +1,4 @@
+Variable secret is defined in a script, so simply type "secret" into dev console, and the falg is printed.
+
+Flag: easyctf{developer_console_is_your_friend}
+- Avi
