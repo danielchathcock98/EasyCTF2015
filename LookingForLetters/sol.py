@@ -3,6 +3,6 @@ text = f.readline()
 f.close()
 f = open("looking-for-letters.out", "w")
 
-f.write(",".join([num for num in text if num.isdigit()]) + "\n")
+f.write("".join([num for num in text if num.isalpha()]) + "\n")
 
 f.close()

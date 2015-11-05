@@ -1,0 +1,4 @@
+Just use more list comprehensions and the isalpha() function. Easy, except that the program execution data stopped displaying as the lastest one (took me a while to figure out). Be carefule of this.
+
+Flag: easyctf{filtering_the_#s_out}
+- Daniel
