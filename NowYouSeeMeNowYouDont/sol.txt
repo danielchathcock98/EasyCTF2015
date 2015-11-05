@@ -1,0 +1,7 @@
+Simple, log into shell:
+cd /problems/elusive
+ls -al
+then just cat the hidden file. -al flags stand for "all" and "list" (the l is unneeded for this problem)
+
+Flag: easyctf{just_playing_h1de_and_seek_lel}
+- Daniel

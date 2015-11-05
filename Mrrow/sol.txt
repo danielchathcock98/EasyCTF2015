@@ -1,0 +1,6 @@
+Login to shell, cd /problems/owner:
+ls -l
+The owner and group are listed as leonidas and sparta
+
+Flag: easyctf{leonidas:sparta}
+- Daniel
