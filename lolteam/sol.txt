@@ -1,0 +1,6 @@
+So I got wireshark app for mac, opened file in it, and basically just sifted though all the crap.
+
+The flag was in one of the packets. It was marked as POST at the beginning instead of listing ports, it used HTTP protocol, and was the longest one.
+
+Flag: flag{no,_lolteam_is_not_an_admin_account}
+- Daniel
