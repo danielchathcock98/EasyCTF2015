@@ -1,0 +1,4 @@
+Basically call sorted() and reverse() on the python list. Remember to remove the newline character, then add it back.
+
+Flag: easyctf{sorting_is_as_easy_as_3_2_1!}
+- Daniel
