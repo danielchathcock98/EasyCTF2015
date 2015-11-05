@@ -11,12 +11,19 @@ def shiftN(char, n):
         return chr((charOrd-97+n)%26+97)
     return char
 
+def shiftAllN(char, n):
+    return chr(ord(char) + n)
+
 # shift the entire string
 def doCaeser(text, shiftNum):
-    return "".join([shiftN(letter, shiftNum) for letter in list(text)])
+    return "".join([shiftAllN(letter, shiftNum) for letter in list(text)])
 
 print(doCaeser(cyphertext, 0) + "\n\n")
 
 i = 0
-while input(doCaeser(cyphertext, i)) == "":
-    i += 1
+nextin = input(doCaeser(cyphertext, i))
+while nextin != "":
+    if nextin == "x":
+        i += 1
+    else: i -= 1
+    nextin = input(doCaeser(cyphertext, i))

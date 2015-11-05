@@ -1,0 +1,10 @@
+This problem is a pretty simple programming problem. First parse file, remove the newline character at the end, and split into list by spaces.
+
+Then, I made a short test for vowel or consonant, which then does the piglatin swap.
+
+After that, its a simple problem of list comprehensions. Apply the function to each element of the input list.
+
+Remember to add newline to end of output.
+
+Flag: easyctf{atinl4y_easyyay_3noughyay_orfay_ayay_1gpay!}
+- Daniel

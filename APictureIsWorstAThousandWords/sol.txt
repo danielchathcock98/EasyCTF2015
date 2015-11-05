@@ -1,0 +1,10 @@
+This one was easy. Just go into data folder, use terminal command
+file ./*
+
+You notice that there are a few which aren't plain ascii text, but too many to search through, so use grep!
+file ./* | grep JPEG
+
+This gives you the single file which is a jpg. Rename and move it, and open the file.
+
+Flag: easyctf{it_must_be_pretty_hard_reading_this}
+- Daniel

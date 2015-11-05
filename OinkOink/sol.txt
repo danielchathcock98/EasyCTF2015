@@ -1,0 +1,6 @@
+Another fairly easy one. Just perform the opposite operatio from oink (see code), but add a check for letter case at the beginning.
+
+The first time I ran this, it told me I am wrong because I changed ouyay to ou...which is bullshit. By their definition, ou would convert to ouyay...so whatever. The second run (with no code change) worked :)
+
+Flag: easyctf{th0se_pesky_capit4ls_were_a_pa1n,_weren't_they?}
+- Daniel
