@@ -1,0 +1,6 @@
+The original file supplied was in a zip format. I determined this using the "file" terminal command, which tells filetype.
+
+Then, once uncompressed, the file had a .png extension, but it still wouldn't open correctly, so I looked up specifications for the png file format. It was missing the correct first 8 bytes of data. I simply added these using a hex editor, and was able to open the image :D
+
+Flag: easyctf{troll3d}
+- Daniel
