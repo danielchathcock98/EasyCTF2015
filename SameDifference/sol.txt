@@ -1,0 +1,4 @@
+So...just the diff command. Really really easy...wtf
+
+Flag: easyctf{60a57b3974029aa012e66b05f122748b}
+- Daniel

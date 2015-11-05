@@ -1,0 +1,7 @@
+So basically, you have to use find command from / directory, and use flag -user l33t_haxx0r to search for files owned by him. But also, there are a bunch of permisions denied, so you can redirect stderr elsewhere with 2>/dev/null:
+find . -user l33t_haxx0r 2>/dev/null
+
+Then the actualy flag must be found by searching the index.html file found, since they put each letter on a new line.
+
+Flag: easyctf{c0mp1et3ly_r3kt}
+- Daniel
