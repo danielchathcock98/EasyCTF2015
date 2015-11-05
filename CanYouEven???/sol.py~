@@ -1,0 +1,7 @@
+f = open("can-you-even.in", "r")
+nums = f.readline().split(",")
+f.close()
+f = open("can-you-even.out", "w")
+f.write(str(len([elem for elem in nums if (int(elem)&1 == 0)])))
+f.flush()
+f.close()

@@ -1,0 +1,5 @@
+So just read file, split by commas, then use python list comprehensions to check for evenness to create a new list.
+Since new list only has even numbers, take the length of it, and put a newline character at the end (cause they want that).
+
+Flag: easyctf{?v=8ruJBKFrRCk}
+- Daniel
