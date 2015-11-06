@@ -9,10 +9,11 @@ public class Display extends JFrame
     char[][] pic;
     public Display( char[][] picture )
     {
-        this.setPreferredSize(new Dimension(320, 330));
+        this.setPreferredSize(new Dimension(500, 500));
         this.pack();
         this.setVisible(true);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
         pic = picture;
     }
 
@@ -21,13 +22,13 @@ public class Display extends JFrame
     {
         super.paint( g );
 
-        for(int i = 0; i < pic.length; i++ )
+        for(int i = 0; i < pic.length - 2; i++ )
         {
-            for ( int j = 0; j < pic[i].length; j++ )
+            for ( int j = 0; j < pic[i].length-2; j++ )
             {
                 if(pic[j][i] == 'x')
                 {
-                    g.fillRect( (j+2)*10, (i+3)*10, 10, 10 );
+                    g.fillRect( (j+10)*10, (i+11)*10, 10, 10 );
                 }
             }
         }

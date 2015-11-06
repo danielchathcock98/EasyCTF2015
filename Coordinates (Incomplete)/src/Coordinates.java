@@ -23,7 +23,8 @@ public class Coordinates
                     picture[i][j] = ' ';
                 }
             }
-            Scanner in = new Scanner( new File("/Users/Jake/IdeaProjects/EasyCTF/src/qr.txt") );
+//            Scanner in = new Scanner( new File("/Users/Jake/IdeaProjects/EasyCTF/src/qr.txt") );
+            Scanner in = new Scanner( new File("./qr.txt") );
 
             String coords = in.nextLine();
             for(String i : coords.split( "\\(" ))
@@ -47,6 +48,21 @@ public class Coordinates
 
             }
 
+            // Just inverting picture to get right colors (cause Java graphics is hard)
+            for (int i = 0; i < picture.length; i++)
+            {
+                for (int j = 0; j < picture[i].length; j++)
+                {
+                    if (picture[i][j] == 'x')
+                    {
+                        picture[i][j] = ' ';
+                    }
+                    else
+                    {
+                        picture[i][j] = 'x';
+                    }
+                }
+            }
             Display out = new Display( picture );
 
 
