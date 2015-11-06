@@ -1,6 +1,7 @@
 import sys
 
-cyphertext = sys.argv[1]
+ciphertext = sys.argv[1]
+key = sys.argv[2]
 
 # shift any lowercase or capital letter by n
 def shiftN(char, n):
@@ -18,12 +19,13 @@ def shiftAllN(char, n):
 def doCaeser(text, shiftNum):
     return "".join([shiftAllN(letter, shiftNum) for letter in list(text)])
 
-print(doCaeser(cyphertext, 0) + "\n\n")
+print(doCaeser(ciphertext, 0) + "\n\n")
 
-i = 0
-nextin = input(doCaeser(cyphertext, i))
+i = -97
+newText = "".join([chr(ord(char) + ord(key[i % len(key)])) for i, char in enumerate(ciphertext)])
+nextin = input(doCaeser(newText, i))
 while nextin != "":
     if nextin == "x":
         i += 1
     else: i -= 1
-    nextin = input(doCaeser(cyphertext, i))
+    nextin = input(doCaeser(newText, i))

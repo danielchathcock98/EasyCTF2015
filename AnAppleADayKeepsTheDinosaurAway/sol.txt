@@ -1,0 +1,12 @@
+I tried searching for the string "easy" in the apple file to no avail. I can't find anything directly in the file....I don't like problems like this...
+
+- Daniel
+
+
+So...grep failed me. It turns out grep acts strangely with binary files (even with adding the -a flag or --binary-files=text flag). For apples it didn't output anything, but when I run
+          strings apples.jpg | grep easy
+it gave me the flag...so grep is imperfect!!
+
+- Daniel
+
+Problem was actually solved by Jake by doing an i-search in emacs
