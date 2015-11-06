@@ -1,0 +1,7 @@
+So, I'll start off by asking: did someone say easy mode?
+
+But on to the actual explantation.
+
+So, if you open the site and actually try to go to the home or the about page, you see in the URL, that you are going
+to "page=pages/index.html" or something like that. All you need to do is go and change the URL to say
+"page=supersecretflag.txt", because that way you go around the permission problems. And yeah. Easy mode.

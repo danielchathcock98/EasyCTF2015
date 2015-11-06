@@ -1,0 +1,2 @@
+The coordinates class goes through each of the coordinates, and plots a point in a 2D array, Then the display goes
+Through the 2D array and puts a white box where ever there is a point. This draws teh QR for the hint.

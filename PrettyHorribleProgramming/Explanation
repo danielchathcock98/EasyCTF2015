@@ -1,0 +1,5 @@
+Again with the easy mode.
+
+So, with this one, the thing is that they're using strcmp to compare your password, and they're looking to see if it's
+equal to zero. The problem is, that's a crappy function to use, because, if you don't pass in 2 strings, it returns 0
+So, you go into your beautiful URL, put some brackets next to "password=" to make it an array, and voila! you're in.
