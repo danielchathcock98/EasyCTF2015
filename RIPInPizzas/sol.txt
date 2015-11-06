@@ -1,0 +1,6 @@
+Jake was able to remove the top layer by opening in word and then copy-pasting the lower layer elsewhere.
+
+Then, Avi put the pieces together.
+
+Flag: easyctf{can_y0u_put_4ll_the_pieces_2gether?}
+- Daniel
