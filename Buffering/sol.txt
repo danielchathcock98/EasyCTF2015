@@ -1,0 +1,12 @@
+This was a little bit tricky. You had to know that char arrays are stored in stack memory as just a series of bytes (in this case 20).
+Then, there are some number of bytes after/before that used for other information. C allocates memory in 8-byte chunks (I believe), so basically there will be some number of bytes after the 20 that you enter for the characters which do nothing.
+After that is the memory location where x is stored (since x was declared after the char[]). C ints can be either little endian (least significant byte first in memory) or big endian (most significant byte first. This is the intuitive one)
+After some brief testing, I determined that it is little endian for that server, since the first character I entered into the memory location for x made x exactly equal to the ordinal value of the char.
+
+Here comes the tricky part: since 1337 is 0x0539, that means the two values that need to go into the memory foc x are first 0x39, then 0x05...but how do you type the 0x05 as input??
+     You can echo (terminal print) the string with the escaped sequences, then pipe it into the c file like so:
+     echo -e "12345678901234567890123456789\x05" | ./overflow
+     The -e flag for echo allows it to recognize escaped sequences.
+
+Flag: easyctf{i_wish_everything_were_th1s_34sy}
+- Daniel
