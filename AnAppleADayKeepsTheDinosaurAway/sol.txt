@@ -10,3 +10,10 @@ it gave me the flag...so grep is imperfect!!
 - Daniel
 
 Problem was actually solved by Jake by doing an i-search in emacs
+
+
+After some research, I came across bgrep, which allows you to search for hex strings. Thus easy in hex is 65617379, so
+     bgrep 65617379 apple.jpg
+Then xxd command is hex dump, which lists off file as a bunch of hex, with the byte offset in increments of 16 (10 in hex), so
+     xxd apples.jpg | grep 4b9250
+Gace part of line, when the actual offset from bgrep was 4b925a (round down to 0)
