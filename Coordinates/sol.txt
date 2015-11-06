@@ -1,0 +1,4 @@
+Basically, Jake plotted the coordinates with ascii art, noticed that it is a QR code (and also it is titled qr). So then he did java graphics to make the code, we scanned it in, and it turned out the key.
+
+Flag: easyctf{bet_y0u_read_that_wiki_page}
+- Daniel
