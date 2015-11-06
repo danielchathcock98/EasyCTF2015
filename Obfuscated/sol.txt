@@ -69,4 +69,5 @@ Then:
 Thus, various strings can be constructed from the information given which passes all of these tests. The key I used is one of these :) Wow that was fun
 
 Flag: Wh4t1aeR1TH0O0O0O0OS3OQOQ
+Alternate Flag: WR4h1tae2TH0O0O0O0OS3OQOQ
 - Daniel
