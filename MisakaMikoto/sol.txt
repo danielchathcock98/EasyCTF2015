@@ -1,0 +1,9 @@
+Not a caeser shift of any sort....
+
+
+So....this kinda sucks.....the flag has no curly braces.............I dont even know what life is anymore....................
+
+(5-rail rail fence cipher. Make sure to use a website that does a real rail fence (zigzag) cipher, and that keeps numbers in the deciphered text)
+
+Flag: railgunsarethebesteasyctfl3v3l5esp3rs
+- Daniel

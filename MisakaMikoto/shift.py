@@ -21,8 +21,9 @@ def doCaeser(text, shiftNum):
 
 print(doCaeser(ciphertext, 0) + "\n\n")
 
-i = -97
-newText = "".join([chr(ord(char) + ord(key[i % len(key)])) for i, char in enumerate(ciphertext)])
+newText = ciphertext
+i = 0
+# newText = "".join([chr(ord(char) + ord(key[i % len(key)])) for i, char in enumerate(ciphertext)])
 nextin = input(doCaeser(newText, i))
 while nextin != "":
     if nextin == "x":
