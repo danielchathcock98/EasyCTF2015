@@ -16,5 +16,5 @@ def doCaeser(text, shiftNum):
 print(doCaeser(cyphertext, 0) + "\n\n")
 
 i = 0
-while input(doCaeser(cyphertext, i)) == "":
+while raw_input(doCaeser(cyphertext, i)) == "":
     i += 1
